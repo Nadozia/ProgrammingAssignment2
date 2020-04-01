@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## To solve the inverse if it is a null, or the call the get_inverse_function
 
 cacheSolve <- function(x, ...) {
   Inv <- x$get_inverse()
